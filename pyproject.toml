@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persiterm"
+version = "0.1.0"
+description = "Readable Persian in any terminal: reshaping + RTL filter and font installer"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["arabic-reshaper>=3.0", "python-bidi>=0.4.2"]
+
+[project.scripts]
+persiterm = "persiterm.cli:main"
