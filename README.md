@@ -29,7 +29,7 @@
 پایتون ۳.۸ یا بالاتر لازم است.
 
 ```bash
-git clone https://github.com/USERNAME/persiterm.git
+git clone https://github.com/rV9Cy/persiterm.git
 cd persiterm
 pip install .
 ```
